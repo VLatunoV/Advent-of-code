@@ -1,6 +1,6 @@
 import os
 
-input_file = os.path.join(os.path.dirname(__file__), 'input5.txt')
+input_file = os.path.join(os.path.dirname(__file__), 'input05.txt')
 with open(input_file) as f:
 	l = f.readline()
 	seeds = [int(x) for x in l.split(':')[1].strip().split()]

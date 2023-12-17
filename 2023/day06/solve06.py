@@ -1,6 +1,6 @@
 import os
 
-input_file = os.path.join(os.path.dirname(__file__), 'input6.txt')
+input_file = os.path.join(os.path.dirname(__file__), 'input06.txt')
 with open(input_file) as f:
 	times = [int(x) for x in f.readline().split(':')[1].split()]
 	distances = [int(x) for x in f.readline().split(':')[1].split()]

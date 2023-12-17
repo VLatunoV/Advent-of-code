@@ -66,7 +66,7 @@ def find_type(cards, part):
 			result = HIGH_CARD
 	return result
 
-input_file = os.path.join(os.path.dirname(__file__), 'input7.txt')
+input_file = os.path.join(os.path.dirname(__file__), 'input07.txt')
 with open(input_file) as f:
 	lines = f.read().splitlines()
 	hands = [(cards, int(bid)) for cards, bid in [x.split() for x in lines]]

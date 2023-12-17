@@ -1,7 +1,7 @@
 import os
 from functools import reduce
 
-input_file = os.path.join(os.path.dirname(__file__), 'input2.txt')
+input_file = os.path.join(os.path.dirname(__file__), 'input02.txt')
 with open(input_file) as f:
 	lines = f.readlines()
 

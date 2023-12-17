@@ -17,7 +17,7 @@ def find_win(string):
 			nr_of_win_cards += 1
 	return(total_win, nr_of_win_cards)
 
-input_file = os.path.join(os.path.dirname(__file__), 'input4.txt')
+input_file = os.path.join(os.path.dirname(__file__), 'input04.txt')
 with open(input_file) as f:
 	lines = f.readlines()
 	final_win = 0

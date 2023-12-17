@@ -1,6 +1,6 @@
 import os
 
-input_file = os.path.join(os.path.dirname(__file__), 'input8.txt')
+input_file = os.path.join(os.path.dirname(__file__), 'input08.txt')
 with open(input_file) as f:
 	lines = f.read().splitlines()
 
