@@ -80,5 +80,5 @@ def solve_part2():
 	result = [element for sublist in result for element in sublist]
 	return min(result)[0]
 
-print(f'Part 1: {solve_part1()}') # 993500720
-print(f'Part 2: {solve_part2()}') # 4917124
+print(f'Part 1:', solve_part1()) # 993500720
+print(f'Part 2:', solve_part2()) # 4917124

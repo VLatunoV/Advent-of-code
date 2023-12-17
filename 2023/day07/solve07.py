@@ -86,5 +86,5 @@ def solve_part2():
 	cmp = lambda hand: (find_type(hand[0], part=2), calc_strength(hand[0]))
 	return calc_result(sorted(hands, key=cmp))
 
-print(f'Part 1: {solve_part1()}') # 248217452
-print(f'Part 2: {solve_part2()}') # 245576185
+print(f'Part 1:', solve_part1()) # 248217452
+print(f'Part 2:', solve_part2()) # 245576185

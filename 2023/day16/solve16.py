@@ -82,5 +82,5 @@ def solve_part2():
 		result = max(result, solve(0, col, DOWN_IDX), solve(h-1, col, UP_IDX))
 	return result
 
-print(f'Part 1: {solve_part1()}') # 7060
-print(f'Part 2: {solve_part2()}') # 7493
+print(f'Part 1:', solve_part1()) # 7060
+print(f'Part 2:', solve_part2()) # 7493

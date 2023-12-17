@@ -86,5 +86,5 @@ def solve_part2():
 
 	return get_result(lines)
 
-print(f'Part 1: {solve_part1()}') # 109385
-print(f'Part 2: {solve_part2()}') # 93102
+print(f'Part 1:', solve_part1()) # 109385
+print(f'Part 2:', solve_part2()) # 93102

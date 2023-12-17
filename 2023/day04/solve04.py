@@ -25,7 +25,7 @@ with open(input_file) as f:
 		win_current, nr_of_win_cards = find_win(l)
 		final_win += win_current
 		
-print(f'Part 1: {final_win}') # 21919
+print(f'Part 1:', final_win) # 21919
 
 
 # Part 2
@@ -55,5 +55,5 @@ with open(input_file) as f:
 				total_nr_cards[card + add + 1] += total_nr_cards[card]
 	#	total_nr_cards = total_nr_cards + get_wins(card, card_wins)
 		
-print(f'Part 2: {sum(total_nr_cards)}') # 9881048
-#print(f'Part 2: {total_nr_cards}') # 9881048
+print(f'Part 2:', sum(total_nr_cards)) # 9881048
+#print(f'Part 2:', total_nr_cards) # 9881048

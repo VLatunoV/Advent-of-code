@@ -34,5 +34,5 @@ def solve_part2():
 	result = [solve_line_2(l) for l in lines]
 	return sum(result)
 
-print(f'Part 1: {solve_part1()}') # 1980437560
-print(f'Part 2: {solve_part2()}') # 977
+print(f'Part 1:', solve_part1()) # 1980437560
+print(f'Part 2:', solve_part2()) # 977

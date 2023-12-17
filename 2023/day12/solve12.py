@@ -69,5 +69,5 @@ def solve_part2():
 	counts = [x*5 for x in counts]
 	return solve_part1()
 
-print(f'Part 1: {solve_part1()}') # 7857
-print(f'Part 2: {solve_part2()}') # 28606137449920
+print(f'Part 1:', solve_part1()) # 7857
+print(f'Part 2:', solve_part2()) # 28606137449920

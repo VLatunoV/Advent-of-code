@@ -46,5 +46,5 @@ def solve_line(l):
 def solve_part2():
 	return sum([solve_line(l) for l in lines])
 
-print(f'Part 1: {solve_part1()}') # 2176
-print(f'Part 2: {solve_part2()}') # 63700
+print(f'Part 1:', solve_part1()) # 2176
+print(f'Part 2:', solve_part2()) # 63700

@@ -43,5 +43,5 @@ def solve(part):
 				break
 	return result
 
-print(f'Part 1: {solve(part=1)}') # 31739
-print(f'Part 2: {solve(part=2)}') # 31539
+print(f'Part 1:', solve(part=1)) # 31739
+print(f'Part 2:', solve(part=2)) # 31539

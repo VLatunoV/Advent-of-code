@@ -80,5 +80,5 @@ def solve(part):
 			result += get_dist(star1, star2)
 	return result
 
-print(f'Part 1: {solve(part=1)}') # 9521550
-print(f'Part 2: {solve(part=2)}') # 298932923702
+print(f'Part 1:', solve(part=1)) # 9521550
+print(f'Part 2:', solve(part=2)) # 298932923702

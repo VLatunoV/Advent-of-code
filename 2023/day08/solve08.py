@@ -107,5 +107,5 @@ def solve_part2():
 
 	return lcm(cycle_lengths)
 
-print(f'Part 1: {solve_part1()}') # 12169
-print(f'Part 2: {solve_part2()}') # 12030780859469
+print(f'Part 1:', solve_part1()) # 12169
+print(f'Part 2:', solve_part2()) # 12030780859469

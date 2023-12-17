@@ -102,5 +102,5 @@ def solve_part2():
 				result += get_gear_power(row, col)
 	return result
 
-print(f"Part 1: {solve_part1()}") # 527446
-print(f"Part 2: {solve_part2()}") # 73201705
+print(f'Part 1:', solve_part1()) # 527446
+print(f'Part 2:', solve_part2()) # 73201705

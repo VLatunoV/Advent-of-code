@@ -49,5 +49,5 @@ def solve_part2():
 			result += (i+1) * (j+1) * boxes[i][j][1]
 	return result
 
-print(f'Part 1: {solve_part1()}') # 511343
-print(f'Part 2: {solve_part2()}') # 294474
+print(f'Part 1:', solve_part1()) # 511343
+print(f'Part 2:', solve_part2()) # 294474

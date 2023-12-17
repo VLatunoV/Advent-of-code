@@ -18,7 +18,7 @@ def solve_part1():
 		result *= ways
 	return result
 
-print(f'Part 1: {solve_part1()}') # 1108800
+print(f'Part 1:', solve_part1()) # 1108800
 
 with open(input_file) as f:
 	time = int(''.join(f.readline().split(':')[1].strip().split()))
@@ -50,4 +50,4 @@ def solve_part2():
 		result -= 1
 	return result
 
-print(f'Part 2: {solve_part2()}') # 36919753
+print(f'Part 2:', solve_part2()) # 36919753

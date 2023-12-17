@@ -81,7 +81,7 @@ def solve():
 
 	# Remove 1 since the loop goes one more time after reaching the end before it exits
 	current_dist -= 1
-	print(f'Part 1: {current_dist}') # 6842
+	print(f'Part 1:', current_dist) # 6842
 	# =========================================================================================
 
 	num_inside = 0
@@ -106,6 +106,6 @@ def solve():
 			elif not is_outside:
 				num_inside += 1
 
-	print(f'Part 2: {num_inside}') # 393
+	print(f'Part 2:', num_inside) # 393
 
 solve()
