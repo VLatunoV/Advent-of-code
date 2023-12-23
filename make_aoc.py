@@ -43,8 +43,8 @@ if __name__ == '__main__':
 				f.write('\tpass\n\n')
 				f.write('def solve_part2():\n')
 				f.write('\tpass\n\n')
-				f.write("print(f'Part 1:', solve_part1())\n")
-				f.write("print(f'Part 2:', solve_part2())\n")
+				f.write("print('Part 1:', solve_part1())\n")
+				f.write("print('Part 2:', solve_part2())\n")
 			days_created[i-1] = True
 
 	if root_created:
